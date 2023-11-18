@@ -8,11 +8,6 @@ import java.util.concurrent.Future;
 
 public class Main2 {
     public static void main(String[] args) {
-        Main2 main = new Main2();
-        main.run();
-    }
-
-    private void run() {
         double a = 0;
         double b = Math.PI;
         int n = 1_000_000_000;
