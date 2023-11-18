@@ -1,4 +1,4 @@
-package yaremax.main1;
+package yaremax;
 
 import java.util.function.DoubleUnaryOperator;
 import java.util.stream.IntStream;

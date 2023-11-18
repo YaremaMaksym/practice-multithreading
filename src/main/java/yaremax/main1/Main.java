@@ -1,5 +1,7 @@
 package yaremax.main1;
 
+import yaremax.IntegralCalculator;
+
 public class Main {
 
     private double totalResult;
@@ -7,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         Main main = new Main();
-        main.run();
+        main.run2();
     }
 
     public void run(){
@@ -28,7 +30,7 @@ public class Main {
         double a = 0;
         double b = Math.PI;
         int n = 1_000_000_000;
-        int nThreads = 10;
+        int nThreads = 20;
         totalResult = 0;
         finishedThreads = 0;
         double delta = (b - a) / nThreads;

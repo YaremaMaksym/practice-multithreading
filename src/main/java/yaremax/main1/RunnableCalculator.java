@@ -1,5 +1,7 @@
 package yaremax.main1;
 
+import yaremax.IntegralCalculator;
+
 import java.util.function.DoubleUnaryOperator;
 
 public class RunnableCalculator implements Runnable {
