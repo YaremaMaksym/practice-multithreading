@@ -1,4 +1,4 @@
-package yaremax;
+package yaremax.main1;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package yaremax;
+package yaremax.main1;
 
 import java.util.function.DoubleUnaryOperator;
 
