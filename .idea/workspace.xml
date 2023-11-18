@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b63d5e47-7597-4dfc-adcb-146e4c59c483" name="Changes" comment="move to new main1 package">
-      <change afterPath="$PROJECT_DIR$/src/main/java/yaremax/main2/CallableCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yaremax/main2/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yaremax/main1/IntegralCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yaremax/IntegralCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yaremax/main1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yaremax/main1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yaremax/main1/RunnableCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yaremax/main1/RunnableCalculator.java" afterDir="false" />
+    <list default="true" id="b63d5e47-7597-4dfc-adcb-146e4c59c483" name="Changes" comment="usage of Callable, Future and Executor service">
+      <change afterPath="$PROJECT_DIR$/src/main/java/yaremax/main3/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yaremax/main3/RunnableCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="yaremax.main3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main3">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="yaremax.main1.Main" />
       <module name="practice-multithreading-jdk18" />
@@ -80,8 +83,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yaremax.main3.Main3" />
+      <module name="practice-multithreading-jdk18" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yaremax.main3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main" />
       </list>
@@ -98,7 +115,7 @@
       <workItem from="1699949289135" duration="3288000" />
       <workItem from="1699954211652" duration="5688000" />
       <workItem from="1700037337659" duration="658000" />
-      <workItem from="1700292259460" duration="3382000" />
+      <workItem from="1700292259460" duration="6486000" />
     </task>
     <task id="LOCAL-00001" summary="init project with IntegralCalculator">
       <option name="closed" value="true" />
@@ -124,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700299201173</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="usage of Callable, Future and Executor service">
+      <option name="closed" value="true" />
+      <created>1700316723823</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700316723823</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +170,7 @@
     <MESSAGE value="init project with IntegralCalculator" />
     <MESSAGE value="calculating integral with default java multithreading tools implementing RunnableCalculator" />
     <MESSAGE value="move to new main1 package" />
-    <option name="LAST_COMMIT_MESSAGE" value="move to new main1 package" />
+    <MESSAGE value="usage of Callable, Future and Executor service" />
+    <option name="LAST_COMMIT_MESSAGE" value="usage of Callable, Future and Executor service" />
   </component>
 </project>
